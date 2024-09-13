@@ -1,5 +1,5 @@
 {
-    "description": "Map Left Shift and Escape to `",
+    "description": "Map Left Option and Escape to ` ",
     "manipulators": [
         {
             "from": {

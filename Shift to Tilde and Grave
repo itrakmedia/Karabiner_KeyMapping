@@ -1,0 +1,39 @@
+{
+    "description": "Left Shift + Escape to ` and Left Shift + Right Shift to ~",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "escape",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [{ "key_code": "grave_accent_and_tilde" }],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_shift",
+                "modifiers": { "mandatory": ["right_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "grave_accent_and_tilde",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_shift",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "grave_accent_and_tilde",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
